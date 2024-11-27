@@ -20,7 +20,9 @@ vim.opt.updatetime = 250
 vim.opt.timeoutlen = 100
 vim.opt.splitright = true
 vim.opt.splitbelow = true
-
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
 vim.api.nvim_create_autocmd('FileType', {
   pattern = 'help',
   command = 'wincmd L',
