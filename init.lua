@@ -23,6 +23,8 @@ vim.opt.splitbelow = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
+vim.opt.wrap = false
+
 vim.api.nvim_create_autocmd('FileType', {
   pattern = 'help',
   command = 'wincmd L',
